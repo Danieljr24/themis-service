@@ -16,5 +16,13 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
+themis:
+  jwt:
+    secret: TuClaveSecretaSuperSegura123!
+    expirationMs: 86400000
+    cookieName: themis_ticket
+
 server:
   port: 8082
+
+
