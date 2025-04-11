@@ -14,7 +14,7 @@ public class AuthService {
     private final JwtUtil jwtUtil;
 
     public AuthService(AuthenticationManager authenticationManager, 
-                      JwtUtil jwtUtil) {
+                        JwtUtil jwtUtil) {
         this.authenticationManager = authenticationManager;
         this.jwtUtil = jwtUtil;
     }
