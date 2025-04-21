@@ -1,4 +1,4 @@
-package com.themis.themis.entities;
+package com.themis.themis_service.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

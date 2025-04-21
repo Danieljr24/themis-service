@@ -1,12 +1,13 @@
-package com.themis.themis.service;
+package com.themis.themis_service.service;
 
-import com.themis.themis.util.JwtUtil;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
+
+import com.themis.themis_service.util.JwtUtil;
 
 @Service
 public class AuthService {

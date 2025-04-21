@@ -1,8 +1,9 @@
-package com.themis.themis.repository;
+package com.themis.themis_service.repository;
 
-import com.themis.themis.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.themis.themis_service.entities.User;
 
 import java.util.Optional;
 
